@@ -16,6 +16,7 @@ public class OperadorOu {
 		totalCompra = leitor.nextDouble();
 		System.out.println("Por favor, digite o seu cupom");
 		cupom = leitor.next();
+		leitor.close();
 
 		// Aqui é preciso criar um if que verifique as duas condições para que o
 		// desconto seja ou não aplicado
